@@ -1,0 +1,7 @@
+datasources:abb6094b6b5d3a9bdb22d32937b81c6349bbab12
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:54732c069dd3591a3c0a65fb7583723b554d9b01
+--test testDemo6.Validate Unsuccesful login
+--test testDemo6.Validate succesful login and display product page
+--test testDemo6.Validate succesful login and display child window

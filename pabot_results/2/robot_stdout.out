@@ -1,0 +1,24 @@
+==============================================================================
+testDemo6 :: To validate the Login form                                       
+==============================================================================
+Validate succesful login and display child window                       
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\valer\PycharmProjects\robotFrameworkDemo\tests\testDemo6.robot:48
+    T:  Validate succesful login and display child window    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\valer\PycharmProjects\robotFrameworkDemo\tests\testDemo6.robot:9
+      Create WebDriver with Firefox options    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\valer\PycharmProjects\robotFrameworkDemo\pageObjects\Driver.resource:36
+      Create Webdriver    Firefox    firefox_options=${firefox_options}
+      |  firefox_options=${firefox_options} = firefox_options=<selenium.webdriver.firefox.options.Options object at 0x0000022E533F50D0> (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'firefox_options'
+------------------------------------------------------------------------------
+testDemo6 :: To validate the Login form                               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\valer\PycharmProjects\robotFrameworkDemo\pabot_results\2\output.xml
